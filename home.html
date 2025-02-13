@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">BrandName</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+      <div class="container text-center">
+        <h1 class="display-4">Welcome to Our Landing Page</h1>
+        <p class="lead">We provide the best services for you.</p>
+        <a href="#services" class="btn btn-primary">Get Started</a>
+        <a href="#about-us" class="btn btn-secondary">Learn More</a>
+        <div class="scroll-indicator">
+          <i class="fas fa-angle-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section mt-5">
+      <div class="container">
+        <h2>Features</h2>
+        <p>We are a company that offers great features.</p>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="feature-box">
+              <i class="fas fa-check-circle fa-3x"></i>
+              <h3>Feature One</h3>
+              <p>Short description of feature one.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-box">
+              <i class="fas fa-bolt fa-3x"></i>
+              <h3>Feature Two</h3>
+              <p>Short description of feature two.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-box">
+              <i class="fas fa-heart fa-3x"></i>
+              <h3>Feature Three</h3>
+              <p>Short description of feature three.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-box">
+              <i class="fas fa-star fa-3x"></i>
+              <h3>Feature Four</h3>
+              <p>Short description of feature four.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us-section">
+      <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">We are a company that offers great solutions.</p>
+        <div class="team mt-3">
+          <div class="team-card">
+            <img src="images/team1.jpg" alt="Team Member 1" />
+            <h3>John Doe</h3>
+            <p>CEO</p>
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="team-card">
+            <img src="images/team2.jpg" alt="Team Member 2" />
+            <h3>Jane Smith</h3>
+            <p>CTO</p>
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="team-card">
+            <img src="images/team3.jpg" alt="Team Member 3" />
+            <h3>Mike Johnson</h3>
+            <p>Lead Developer</p>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section mt-4">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="mb-5">We are a company that offers great services.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/service1.jpg" alt="" class="w-100" />
+                </div>
+                <div class="flip-card-back">
+                  <p>Details about Service One</p>
+                  <button class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/service2.jpg" alt="" class="w-100" />
+                </div>
+                <div class="flip-card-back">
+                  <p>Details about Service Two</p>
+                  <button class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/service3.jpg" alt="" class="w-100" />
+                </div>
+                <div class="flip-card-back">
+                  <p>Details about Service Three</p>
+                  <button class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="container text-center">
+        <h2>What Our Clients Say</h2>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial">
+                <img
+                  src="images/user1.jpg"
+                  class="testimonial-img"
+                  alt="User  1"
+                />
+                <h3>John Doe</h3>
+                <p class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p>"Amazing service! Highly recommended."</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial">
+                <img
+                  src="images/user2.jpg"
+                  class="testimonial-img"
+                  alt="User  2"
+                />
+                <h3>Jane Smith</h3>
+                <p class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p>"Fantastic experience. Would use again!"</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial">
+                <img
+                  src="images/user3.jpg"
+                  class="testimonial-img"
+                  alt="User  3"
+                />
+                <h3>Mike Johnson</h3>
+                <p class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p>"Exceeded all my expectations!"</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#testimonialCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#testimonialCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+<section id="pricing" class="pricing-section mt-5">
+  <div class="container">
+    <h2 class="text-center">Pricing Plans</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">$10/month</h4>
+            <p class="card-text">Basic features for individuals.</p>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center border border-warning">
+          <div class="card-header">
+            <h3>Standard</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">$20/month</h4>
+            <p class="card-text">Recommended for small teams.</p>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Premium</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">$30/month</h4>
+            <p class="card-text">All features for large teams.</p>
+            <a href="#" class="btn btn-primary">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-center mt-5">Feature Comparison</h3>
+    <table class="table table-bordered mt-3">
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th>Basic</th>
+          <th class="table-warning">Standard</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Feature 1</td>
+          <td>✔️</td>
+          <td>✔️</td>
+          <td>✔️</td>
+        </tr>
+        <tr>
+          <td>Feature 2</td>
+          <td>❌</td>
+          <td>✔️</td>
+          <td>✔️</td>
+        </tr>
+        <tr>
+          <td>Feature 3</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>✔️</td>
+        </tr>
+        <tr>
+          <td>Support</td>
+          <td>Email</td>
+          <td>Email + Chat</td>
+          <td>24/7 Support</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <div class="container my-5">
+      <h2 class="text-primary text-center">Get in Touch</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <form id="contactForm" class="contact-form bg-white p-4 rounded">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                rows="4"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mt-3">
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="google-map mt-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14090.689415648034!2d77.59461003405141!3d12.971598854367055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1475000aef0d%3A0x760b7f8b5e6c21e!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1634265634575!5m2!1sen!2sus"
+              width="100%"
+              height="360"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="address-section bg-light p-4 rounded mt-5">
+        <h4 class="text-primary">Our Address</h4>
+        <p>
+          <i class="fas fa-map-marker-alt" style="font-size: medium"></i> 123
+          Example Street, City, Country
+        </p>
+        <p>
+          <i class="fas fa-phone" style="font-size: medium"></i> +1 234 567 890
+        </p>
+        <p>
+          <i class="fas fa-envelope" style="font-size: medium"></i>
+          info@example.com
+        </p>
+      </div>
+
+      <div class="faqs mt-5" id="faqs">
+        <h4 class="text-primary">Frequently Asked Questions</h4>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is the warranty period for your products?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                The warranty period for our products is 1 year from the date of
+                purchase.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How do I connect my device?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                You can connect your device via Bluetooth or using the provided
+                audio cable.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Where can I find the user manual?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                The user manual can be downloaded from our official website.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Preview Section -->
+<section id="blog-preview" class="blog-preview-section mt-5 mb-3">
+  <div class="container">
+    <h2 class="text-center">Latest Blog Posts</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/lake-mountains_1204-502.jpg" class="card-img-top" alt="Blog Post 1" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 1</h5>
+            <p class="card-text"><small class="text-muted">Posted on January 1, 2025</small></p>
+            <p class="card-text">Short description of the blog post goes here. It provides a brief overview of the content.</p>
+            <a href="blog-post-1.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/green-trees-near-body-water-daytime_395237-20.jpg" class="card-img-top" alt="Blog Post 2" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 2</h5>
+            <p class="card-text"><small class="text-muted">Posted on January 2, 2025</small></p>
+            <p class="card-text">Short description of the blog post goes here. It provides a brief overview of the content.</p>
+            <a href="blog-post-2.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/beautiful-lake-mountains_395237-44.jpg" class="card-img-top" alt="Blog Post 3" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 3</h5>
+            <p class="card-text"><small class="text-muted">Posted on January 3, 2025</small></p>
+            <p class="card-text">Short description of the blog post goes here. It provides a brief overview of the content.</p>
+            <a href="blog-post-3.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Newsletter Subscription Section -->
+    <section id="newsletter" class="newsletter-section">
+      <h3 class="text-center mb-4">Newsletter Subscription Section</h3>
+      <div class="container d-flex flex-wrap align-items-center">
+        <div class="image-container col-md-6">
+          <img
+            src="images/newsletter.png"
+            alt="Newsletter Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="form-container col-md-6">
+          <h2>Subscribe to Our Newsletter</h2>
+          <form id="newsletterForm">
+            <div class="form-group">
+              <label for="emailNewsletter">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailNewsletter"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <div id="successMessage" class="mt-3" style="display: none">
+              Thank you for subscribing!
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container text-center">
+        <img src="images/logo.png" alt="Company Logo" class="logo" />
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Features</a></li>
+          <li class="list-inline-item"><a href="#">Pricing</a></li>
+          <li class="list-inline-item"><a href="#">Contact Us</a></li>
+        </ul>
+        <p>
+          &copy; 2025 Company Name. All rights reserved.
+          <a href="#">Privacy Policy</a>
+        </p>
+        <div class="social-icons">
+          <a href="https://www.facebook .com"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.x.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
